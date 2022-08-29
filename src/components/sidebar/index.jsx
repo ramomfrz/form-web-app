@@ -9,7 +9,7 @@ function Sidebar() {
                 <div className='HomeSideBar'>
                     <Link to="/"><p>Home</p></Link>
                 </div>
-                <div className='teste'>
+                <div className='button-inputs'>
                     <div className='box-input'>
                         <Link to="form"><a>Cadastrar cliente</a></Link> <br />
                     </div>
