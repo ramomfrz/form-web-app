@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .App {
-    background: rgb(241, 200, 164);
+    background: whitesmoke;
     width: 100vw;
     height: 100vh;
     display: grid;
