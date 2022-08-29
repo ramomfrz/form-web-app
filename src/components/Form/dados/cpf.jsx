@@ -18,7 +18,8 @@ function cpf({ formDados, setFormDados }) {
                         cpf: event.target.value
                     }
                 })} />
-                <input type="text" placeholder="Renda Mensal" value={formDados.renda} onChange={(event) => setFormDados((prev) => {
+                <label>Renda Mensal:</label>
+                <input type="text" placeholder="Informe sua renda mensal" value={formDados.renda} onChange={(event) => setFormDados((prev) => {
                     return {
                         ...prev,
                         renda: event.target.value
