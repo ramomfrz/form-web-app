@@ -33,7 +33,7 @@ function Form({ page, setPage, formDados, setFormDados, FormTitles, clients, set
                 <div className='footer'>
                     <button onClick={() => { setPage((currPage) => currPage - 1) }}
                         disabled={page === 0}
-                        style={{ background: page === 0 ? "gray" : page === 1 ? "navy" : "navy" }}>
+                        style={{ background: page === 0 ? "gray" : page === 1 ? "cornflowerblue" : "cornflowerblue" }}>
                         Voltar
                     </button>
                     <button onClick={() => {
@@ -43,7 +43,7 @@ function Form({ page, setPage, formDados, setFormDados, FormTitles, clients, set
                         } else {
                             setPage((currPage) => currPage + 1)
                         }
-                    }} style={{ background: page === 0 ? "navy" : page === 1 ? "navy" : "red" }}>
+                    }} style={{ background: page === 0 ? "cornflowerblue" : page === 1 ? "cornflowerblue" : "red" }}>
                         {page === FormTitles.length - 1 ? "Salvar" : "Próximo"}
                     </button>
 
