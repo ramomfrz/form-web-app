@@ -51,14 +51,11 @@ body {
 }
 
 .form-container .footer button {
-    border-radius: 7px;
     width: 100px;
     height: 40px;
-    background-color: navy;
     font-weight: bold;
     color: white;
-    border: 0 none;
-    border-radius: 1px;
+    border-radius: 5px;
     cursor: pointer;
     margin: 25px 10px;
 }
@@ -114,13 +111,8 @@ body {
     font-size: 20px;
 }
 
-input {
-    border: 2px solid rgb(98, 0, 255);
-    border-radius: 5px;
-}
-
 input:focus {
-    border: 3px solid rgb(98, 0, 255);
+    border: 3px black;
 }
 
 /* ---------------------------- SIDEBAR --------------------------- */
@@ -128,7 +120,7 @@ input:focus {
 .sidebar-container {
     width: 100%;
     height: 100%;
-    background: #78B2E8;
+    background-color: cornflowerblue;
 }
 
 .HomeSideBar>a {
@@ -161,4 +153,16 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 800px;
+}
+
+/* ---------------------------- CLIENTES --------------------------- */
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
 }
