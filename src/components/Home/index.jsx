@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div className='home-container'>
-            <h2>Não perca tempo, cadastre seus clientes!</h2>
+            <h2>Não perca as oportunidades, cadastre os seus clientes!</h2>
         </div>
     )
 }
